@@ -3,6 +3,8 @@
 import { User2, Mail, Phone, MapPin, Calendar, IdCard, RefreshCw, Cake, Globe, Venus, Mars } from "lucide-react";
 import { useEffect, useState } from "react";
 
+export const dynamic = 'force-dynamic'
+
 export default function Home() {
   const [user, setUser] = useState([]);
   const [loading, setLoading] = useState(true);

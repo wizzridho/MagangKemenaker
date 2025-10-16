@@ -1,8 +1,10 @@
+// next.config.mjs - UNTUK APP ROUTER
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/MagangKemenaker',
-  images: { unoptimized: true },
-};
+  reactStrictMode: true,
+  images: {
+    domains: ['randomuser.me'],
+  },
+}
 
-export default nextConfig;
+export default nextConfig
